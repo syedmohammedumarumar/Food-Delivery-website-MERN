@@ -1,5 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
+// import header_img from './header_img.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -83,10 +84,7 @@ export const assets = {
 }
 
 export const menu_list = [
-    {
-        menu_name: "Salad",
-        menu_image: menu_1
-    },
+  
     {
         menu_name: "Rolls",
         menu_image: menu_2
@@ -118,35 +116,6 @@ export const menu_list = [
 
 export const food_list = [
     {
-        _id: "1",
-        name: "Greek salad",
-        image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    },
-    {
-        _id: "2",
-        name: "Veg salad",
-        image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
-        _id: "3",
-        name: "Clover Salad",
-        image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
-        _id: "4",
-        name: "Chicken Salad",
-        image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,

@@ -52,7 +52,7 @@ const List = ({url}) => {
           <img src={`${url}/images/`+item.image} alt="" />
           <p>{item.name}</p>
           <p>{item.category}</p>
-          <p>${item.price}</p>
+          <p>₹{item.price}</p>
           <p className='cross' onClick={()=>removeFood(item._id)}>X</p>
         </div>
       )

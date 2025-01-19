@@ -1,10 +1,16 @@
-.header{
+.header {
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),
+        url('https://qul.imgix.net/5facbdf8-a794-4542-9907-9dd020fae414/572070_sld.jpg') no-repeat;
+    background-size: cover;
     position: relative;
+    border-radius: 30px;
 }
+
 
 .header-contents{
     position: absolute;
@@ -21,7 +27,7 @@
 .header-contents h2{
     font-weight: 500;
     color: white;
-    font-size: max(4.5vw, 22px);
+    font-size: max(3.5vw, 22px);
 }
 
 .header-contents p{
@@ -48,6 +54,9 @@
 @media (max-width:750px) {
     .header-contents{
         max-width: 65%;
+    }
+    .header-contents h2{
+        font-size: 19px;
     }
     .header-contents p{
         display: none;
