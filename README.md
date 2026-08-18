@@ -344,4 +344,4 @@ This Food Delivery Platform is a production-ready full-stack application showcas
 
 For questions, suggestions, or collaboration opportunities, feel free to reach out!
 
-**Happy coding!** 💻practic
+**Happy coding!**
